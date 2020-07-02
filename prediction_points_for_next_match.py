@@ -40,8 +40,7 @@ root.title("Prediction points for player in next game")
 root.iconbitmap('C:/Users/Vuk/Desktop/basketball/nbaa.ico')
 root.geometry('400x600')
 now=datetime.now
-#today=str(now.day)+'.'+str(now.month)+'.'+str(now.year)
-today='31.1.2020'
+today=str(now.day)+'.'+str(now.month)+'.'+str(now.year)
 todaylabel=Label(root,text=today).grid(row=0,column=0)
 
 make_data()  # with sqlite3 making database with nba calendar
